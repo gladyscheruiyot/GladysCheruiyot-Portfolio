@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gladys Cheruiyot - Career Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header .subtitle {
+            font-size: 1.3em;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+        
+        header .contact-info {
+            font-size: 0.95em;
+            opacity: 0.95;
+        }
+        
+        section {
+            background: white;
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        section h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .role {
+            margin-bottom: 35px;
+        }
+        
+        .role-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .role-title {
+            font-size: 1.4em;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .role-dates {
+            color: #666;
+            font-size: 0.95em;
+        }
+        
+        .role-company {
+            font-size: 1.1em;
+            color: #764ba2;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .achievement {
+            background: #f8f9fa;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+        }
+        
+        .achievement-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 1.05em;
+        }
+        
+        .achievement-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        .detail {
+            font-size: 0.95em;
+            color: #555;
+        }
+        
+        .detail strong {
+            color: #333;
+        }
+        
+        .stat {
+            background: #f0f4ff;
+            padding: 10px 15px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            color: #667eea;
+            font-weight: 600;
+        }
+        
+        .highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .highlight-card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .highlight-card h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+        
+        .highlight-card p {
+            color: #555;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .skill-category h4 {
+            color: #667eea;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        
+        .skill-item {
+            background: #f8f9fa;
+            padding: 10px 15px;
+            margin-bottom: 8px;
+            border-radius: 4px;
+            font-size: 0.95em;
+            color: #555;
+        }
+        
+        .awards {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .award {
+            background: linear-gradient(135deg, #ffd89b 0%, #19547b 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+        
+        .award .year {
+            opacity: 0.9;
+            font-size: 0.9em;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            section {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gladys Cheruiyot</h1>
+        <div class="subtitle">Digital Marketing & Creator Ecosystem Strategist</div>
+        <div class="contact-info">
+            📍 Nairobi, Kenya | 📞 +254721559736 | ✉️ gladyscheruiyot@gmail.com | 🔗 LinkedIn
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Professional Summary -->
+        <section>
+            <h2>Professional Summary</h2>
+            <p style="font-size: 1.05em; color: #555; line-height: 1.8;">
+                Strategic digital marketing leader with 10+ years of experience driving creator ecosystem development, revenue generation, and brand partnerships across Sub-Saharan Africa. Proven expertise in scaling creator communities from zero, launching viral campaigns, managing cross-functional teams, and navigating complex regulatory environments. Track record of delivering measurable business impact through innovative community engagement, strategic partnerships, and data-driven decision-making.
+            </p>
+        </section>
+
+        <!-- Key Highlights -->
+        <section>
+            <h2>Key Achievements</h2>
+            <div class="highlights">
+                <div class="highlight-card">
+                    <h4>Creator Ecosystem</h4>
+                    <p><strong>0 → 1,500+ active creators</strong> in 18 months. Built Sub-Sahara African Creator Program with 77.2% monthly retention and 85% weekly publication rates.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Revenue Generation</h4>
+                    <p><strong>$350K+ annual revenue</strong> through strategic brand partnerships with Coca-Cola, Safaricom, Dove, Red Bull, and 45+ additional partners.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Campaign Success</h4>
+                    <p><strong>BookTok Africa: 183M views</strong> in 3 months across 30K content pieces, creating a new educational vertical with 30% engagement increase.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Crisis Management</h4>
+                    <p><strong>40% reduction in misinformation</strong> during Kenya 2022 Elections. Won ByteStyles Award for innovative safety campaign.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Product Innovation</h4>
+                    <p><strong>10+ strategic product rollouts</strong> achieving 85% adoption among top creators and 75% platform-wide uptake.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Community Building</h4>
+                    <p><strong>250+ creator ambassadors</strong> and 1,000+ trained creators. TikTok Top Creator Awards reached 66.7M hashtag views.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience -->
+        <section>
+            <h2>Professional Experience</h2>
+            
+            <div class="role">
+                <div class="role-company">TikTok PTE Ltd.</div>
+                <div class="role-header">
+                    <span class="role-title">Partnerships Manager, Sub-Saharan Africa</span>
+                    <span class="role-dates">Sept 2019 – May 2024</span>
+                </div>
+                
+                <div class="achievement">
+                    <div class="achievement-title">🎯 Creator Ecosystem Development</div>
+                    <div class="achievement-details">
+                        <div class="detail"><strong>Scaling:</strong> Built program from 0 to 1,500 active creators in 18 months</div>
+                        <div class="detail"><strong>Retention:</strong> Achieved 77.2% monthly active retention and 85% weekly publication</div>
+                        <div class="detail"><strong>Management:</strong> Oversaw 5,000+ content creators across Kenya, Nigeria, South Africa</div>
+                        <div class="detail"><strong>Support:</strong> Organized 15+ events and workshops for creator development</div>
+                    </div>
+                </div>
+                
+                <div class="achievement">
+                    <div class="achievement-title">📚 BookTok Africa Launch</div>
+                    <div class="achievement-details">
+                        <div class="stat">183M video views in 3 months</div>
+                        <div class="stat">30K content pieces created</div>
+                        <div class="stat">30% growth in educational content engagement</div>
+                        <div class="stat">Onboarded 250+ book creators</div>
+                    </div>
+                </div>
+                
+                <div class="achievement">
+                    <div class="achievement-title">💼 Brand Partnership Portfolio</div>
+                    <div class="achievement-details">
+                        <div class="stat">$350K+ annual revenue (2023)</div>
+                        <div class="stat">50+ strategic partnerships</div>
+                        <div class="stat">95% partner retention rate</div>
+                        <div class="detail"><strong>Key Clients:</strong> Coca-Cola, Safaricom, Airtel, Dove, Red Bull, Universal Music, Jumia</div>
+                    </div>
+                </div>
+                
+                <div class="achievement">
+                    <div class="achievement-title">🌍 Crisis Management - Kenya 2022 Elections</div>
+                    <div class="achievement-details">
+                        <div class="stat">40% reduction in misinformation</div>
+                        <div class="stat">24K+ views on peace content</div>
+                        <div class="stat">Protected $350K+ partner revenue</div>
+                        <div class="detail"><strong>Award:</strong> ByteStyles Award for innovative safety campaign</div>
+                    </div>
+                </div>
+
+                <div class="achievement">
+                    <div class="achievement-title">📱 Product Implementation & Innovation</div>
+                    <div class="achievement-details">
+                        <div class="stat">10+ strategic product rollouts</div>
+                        <div class="stat">85% adoption among top creators</div>
+                        <div class="stat">75% platform-wide uptake</div>
+                        <div class="detail"><strong>Features:</strong> Photo mode, long-format video (1min+), themed effects, location tagging</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="role">
+                <div class="role-company">Transsion Holdings</div>
+                <div class="role-header">
+                    <span class="role-title">Digital Marketing Manager</span>
+                    <span class="role-dates">Feb 2017 – Aug 2019</span>
+                </div>
+                
+                <div class="achievement">
+                    <div class="achievement-title">📈 Digital Strategy & User Growth</div>
+                    <div class="achievement-details">
+                        <div class="stat">1M monthly users in 6 months</div>
+                        <div class="stat">+25% brand awareness (Vskit)</div>
+                        <div class="stat">+150K social followers</div>
+                        <div class="stat">-12% cost-per-acquisition</div>
+                    </div>
+                </div>
+                
+                <div class="achievement">
+                    <div class="achievement-title">🎮 Churchill Run - Kenya's First IP Game</div>
+                    <div class="achievement-details">
+                        <div class="stat">70K downloads in 2 months</div>
+                        <div class="stat">5,000+ offline event attendees</div>
+                        <div class="detail">Set market benchmark for localized entertainment products</div>
+                    </div>
+                </div>
+
+                <div class="achievement">
+                    <div class="achievement-title">💰 Revenue Generation via PalmAds</div>
+                    <div class="achievement-details">
+                        <div class="stat">$1M mobile ad revenue in 2018</div>
+                        <div class="stat">$100K annual ad revenue</div>
+                        <div class="stat">70% ROI</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="role">
+                <div class="role-company">Blue Lemon Creatives</div>
+                <div class="role-header">
+                    <span class="role-title">Digital Marketing Assistant</span>
+                    <span class="role-dates">Nov 2016 – Apr 2017</span>
+                </div>
+                
+                <div class="achievement">
+                    <div class="achievement-title">📱 Client Social Media Growth</div>
+                    <div class="achievement-details">
+                        <div class="stat">+70% engagement</div>
+                        <div class="stat">10,000+ followers per account</div>
+                        <div class="detail"><strong>Clients:</strong> Tourism and conservation sector brands</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="role">
+                <div class="role-company">Scope Intervention</div>
+                <div class="role-header">
+                    <span class="role-title">Communications and Advocacy Officer</span>
+                    <span class="role-dates">Jan 2014 – Feb 2016</span>
+                </div>
+                
+                <div class="achievement">
+                    <div class="achievement-title">🌱 Advocacy & Social Impact</div>
+                    <div class="achievement-details">
+                        <div class="stat">1M trees planted</div>
+                        <div class="stat">Ksh. 3M raised (15% above target)</div>
+                        <div class="stat">30+ media placements</div>
+                        <div class="stat">+40% public awareness</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section>
+            <h2>Technical Skills & Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Creator Management</h4>
+                    <div class="skill-item">TikTok Creator Marketplace</div>
+                    <div class="skill-item">Meta Business Suite</div>
+                    <div class="skill-item">Salesforce CRM</div>
+                    <div class="skill-item">ZOHO CRM</div>
+                    <div class="skill-item">Discord & Slack</div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Social Media & Analytics</h4>
+                    <div class="skill-item">TikTok, Instagram, Facebook, YouTube</div>
+                    <div class="skill-item">Hootsuite & Buffer</div>
+                    <div class="skill-item">Google Analytics</div>
+                    <div class="skill-item">Meta Analytics</div>
+                    <div class="skill-item">Brandwatch</div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Content & Design</h4>
+                    <div class="skill-item">Canva</div>
+                    <div class="skill-item">Adobe Creative Suite</div>
+                    <div class="skill-item">CapCut & InShot</div>
+                    <div class="skill-item">WordPress</div>
+                    <div class="skill-item">Mailchimp</div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Project Management</h4>
+                    <div class="skill-item">Asana & Trello</div>
+                    <div class="skill-item">Jira & ClickUp</div>
+                    <div class="skill-item">Google Workspace</div>
+                    <div class="skill-item">Microsoft Office 365</div>
+                    <div class="skill-item">Zoom & Google Meet</div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Data & Analytics</h4>
+                    <div class="skill-item">Google Data Studio</div>
+                    <div class="skill-item">Microsoft Power BI</div>
+                    <div class="skill-item">Advanced Excel</div>
+                    <div class="skill-item">A/B Testing</div>
+                    <div class="skill-item">KPI Dashboards</div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Core Competencies</h4>
+                    <div class="skill-item">Community Building</div>
+                    <div class="skill-item">Crisis Management</div>
+                    <div class="skill-item">Strategic Partnerships</div>
+                    <div class="skill-item">Cross-functional Leadership</div>
+                    <div class="skill-item">Cultural Localization</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards & Recognition -->
+        <section>
+            <h2>Awards & Recognition</h2>
+            <div class="awards">
+                <div class="award">
+                    <div>🏆 ByteStyles Award Winner</div>
+                    <div class="year">2022 - Kenya Election Safety Campaign</div>
+                </div>
+                <div class="award">
+                    <div>⭐ Top 25 Women in Digital Africa</div>
+                    <div class="year">2022 - Soma Awards</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <div class="role">
+                <div class="role-header">
+                    <span class="role-title">Master of Business Administration (MBA) - Marketing</span>
+                    <span class="role-dates">2015 - 2017</span>
+                </div>
+                <div class="role-company">Kenya Methodist University</div>
+            </div>
+            
+            <div class="role">
+                <div class="role-header">
+                    <span class="role-title">Bachelor of Arts in Journalism (Public Relations Minor)</span>
+                    <span class="role-dates">2006 - 2011</span>
+                </div>
+                <div class="role-company">United States International University</div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Gladys Cheruiyot | Digital Marketing & Creator Ecosystem Strategist</p>
+    </footer>
+</body>
+</html>

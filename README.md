@@ -65,15 +65,18 @@ Features: Photo mode, long-format video (1min+), themed effects, location taggin
 Transsion Holdings
 Digital Marketing Manager
 Feb 2017 – Aug 2019
+
 📈 Digital Strategy & User Growth
 1M monthly users in 6 months
 +25% brand awareness (Vskit)
 +150K social followers
 -12% cost-per-acquisition
+
 🎮 Churchill Run - Kenya's First IP Game
 70K downloads in 2 months
 5,000+ offline event attendees
 Set market benchmark for localized entertainment products
+
 💰 Revenue Generation via PalmAds
 $1M mobile ad revenue in 2018
 $100K annual ad revenue
@@ -106,6 +109,7 @@ Education
 Master of Business Administration (MBA) - Marketing
 2015 - 2017
 Kenya Methodist University
+
 Bachelor of Arts in Journalism (Public Relations Minor)
 2006 - 2011
 United States International University

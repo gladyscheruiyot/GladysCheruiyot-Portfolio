@@ -4,13 +4,9 @@
 
 📍 Nairobi, Kenya | 📞 +254721559736 | ✉️ gladyscheruiyot@gmail.com | 🔗 [LinkedIn](https://linkedin.com)
 
-
-
 ## Professional Summary
 
 Strategic digital marketing leader with 10+ years of experience driving creator ecosystem development, revenue generation, and brand partnerships across Sub-Saharan Africa. Proven expertise in scaling creator communities from zero, launching viral campaigns, managing cross-functional teams, and navigating complex regulatory environments. Track record of delivering measurable business impact through innovative community engagement, strategic partnerships, and data-driven decision-making.
-
-
 
 ## Key Achievements
 
@@ -31,8 +27,6 @@ Strategic digital marketing leader with 10+ years of experience driving creator 
 
 ### Community Building
 **250+ creator ambassadors** and 1,000+ trained creators. TikTok Top Creator Awards reached 66.7M hashtag views.
-
-
 
 ## Professional Experience
 
@@ -69,8 +63,6 @@ Strategic digital marketing leader with 10+ years of experience driving creator 
 - 75% platform-wide uptake
 - **Features:** Photo mode, long-format video (1min+), themed effects, location tagging
 
-
-
 ### Transsion Holdings
 **Digital Marketing Manager** | *Feb 2017 – Aug 2019*
 
@@ -90,8 +82,6 @@ Strategic digital marketing leader with 10+ years of experience driving creator 
 - $100K annual ad revenue
 - 70% ROI
 
-
-
 ### Blue Lemon Creatives
 **Digital Marketing Assistant** | *Nov 2016 – Apr 2017*
 
@@ -99,8 +89,6 @@ Strategic digital marketing leader with 10+ years of experience driving creator 
 - +70% engagement
 - 10,000+ followers per account
 - **Clients:** Tourism and conservation sector brands
-
-
 
 ### Scope Intervention
 **Communications and Advocacy Officer** | *Jan 2014 – Feb 2016*
@@ -110,7 +98,6 @@ Strategic digital marketing leader with 10+ years of experience driving creator 
 - Ksh. 3M raised (15% above target)
 - 30+ media placements
 - +40% public awareness
-
 
 ## Technical Skills & Tools
 
@@ -156,15 +143,11 @@ Strategic digital marketing leader with 10+ years of experience driving creator 
 - Cross-functional Leadership
 - Cultural Localization
 
----
-
 ## Awards & Recognition
 
 🏆 **ByteStyles Award Winner** | 2022 - Kenya Election Safety Campaign
 
 ⭐ **Top 25 Women in Digital Africa** | 2022 - Soma Awards
-
-
 
 ## Education
 
@@ -172,6 +155,11 @@ Strategic digital marketing leader with 10+ years of experience driving creator 
 *2015 - 2017*
 **Kenya Methodist University**
 
+### Bachelor of Arts in Journalism (Public Relations Minor)
+*2006 - 2011*
+**United States International University**
+
+© 2024 Gladys Cheruiyot | Digital Marketing & Creator Ecosystem Strategist
 ### Bachelor of Arts in Journalism (Public Relations Minor)
 *2006 - 2011*
 **United States International University**
